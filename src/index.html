@@ -18,10 +18,16 @@
             <div class="form-box">
                 <div class="form-value">
                     <div>
-                        <p class="text-center" style="font-size: 21px;font-family: Alatsi, sans-serif;">Painel de Acesso</p>
+                        <p class="text-center" style="font-size: 21px;font-family: Alatsi, sans-serif;">Painel de Acesso
+                        </p>
                     </div>
                     <form id="formPin" action="">
-                        <div class="inputbox mb-4"><input type="text" id="pin" required="" maxlength="4"><label class="form-label" for="">PIN</label></div><button>Entrar</button>
+                        <div class="inputbox mb-4">
+                            <input type="text" id="pin" required="" maxlength="4">
+                            <label class="form-label" for="">PIN</label>
+                        </div>
+                        
+                        <button>Entrar</button>
                         <div class="register">
                             <p>A sua segurança é a nossa responsabilidade.</p>
                         </div>
@@ -32,12 +38,20 @@
     </section>
     <div class="position-fixed end-0 top-0 z-index-3" style="margin-top: 10px;margin-right: 10px;">
         <div class="toast fade hide" role="alert" data-bs-delay="4000" id="toastAlerta" style="border-color: #f5c6cb;">
-            <div class="toast-header" style="background: rgb(255,189,195);border-color: rgb(245,198,203);"><strong class="me-auto" style="font-size: 17px;">Alerta</strong><button class="btn-close ms-2 mb-1 close" type="button" aria-label="Close" data-bs-dismiss="toast" style="border-color: #721c24;"></button></div>
+            <div class="toast-header" style="background: rgb(255,189,195);border-color: rgb(245,198,203);">
+                <strong class="me-auto" style="font-size: 17px;">
+                    Alerta
+                </strong>
+                <button class="btn-close ms-2 mb-1 close" type="button" aria-label="Close" data-bs-dismiss="toast"
+                    style="border-color: #721c24;"></button>
+            </div>
             <div class="toast-body" role="alert" style="background: rgba(248,215,218,0.67);border-color: #f5c6cb;">
                 <p id="resultado" style="border-color: #721c24;">Mensagem</p>
             </div>
         </div>
-    </div><script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script><script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/main.js"></script>
